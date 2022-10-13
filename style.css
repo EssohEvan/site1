@@ -1,3 +1,30 @@
+body
+{
+	background-color: blue;
+}
 
-background-image: url("https://oschool.ci/wp-content/uploads/2018/05/jacky-chiu-544909-unsplash.jpg");
-background-size: cover;
+h1,h3
+
+{
+	color: white;
+font-family: verdana;
+font-size: 1em
+
+}
+
+div
+{
+
+background-color: red;
+border: 2px;
+border-radius: 8px;
+padding: 1.5%;
+text-align: justify;
+}
+
+p{color: white;
+   font-family: arial;
+
+}
+.d1,.d2{background-color:black;}
+.d3{background-color:red }
