@@ -1,0 +1,26 @@
+body
+{
+    background-color: navy;
+    display: flex;
+    justify-content: space-around;
+}
+button
+{
+    width: 44rem;
+    height: 200px;
+    background-color: blanchedalmond;
+    border-radius: 26px;
+    color: white;
+    font-size: 2em;
+
+}
+button:hover
+{
+    background-color: yellowgreen;
+    color: black;
+}
+
+#cotainer{
+    display: flex;
+    flex-direction: column;
+}
