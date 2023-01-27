@@ -1,0 +1,170 @@
+body {
+    background: #504d51;
+    background-size: 100%;
+    
+}
+
+
+
+section.container{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 800px;
+    box-shadow: 10px 10px 10px 10px rgb(229, 109, 235);
+    width: 100%;
+}
+
+div.bloccenter{
+    border: 4px solid rgb(17, 6, 19);
+    width: 80%;
+    height: 400px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 4%;
+    box-shadow: 10px 10px 10px 10px rgb(229, 109, 235);
+    
+}
+
+
+header.bloc1{
+    border: 1px solid rgb(4, 4, 12);
+    margin:1%;
+    width: 80%;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(229, 109, 235);
+
+}
+
+nav.bloc2{
+    border: 1px solid  rgb(229, 109, 235);
+    margin:1%;
+    width: 60%;
+    height: 250px;
+    border-radius: 7px;
+    text-align: center;
+    color: #030803;
+    box-shadow: 10px 10px 10px 10px rgb(17, 8, 17);
+
+}
+
+nav#Menu{
+    width: 100px;
+    padding: 20px;
+    position: relative;
+    right: 0.01rem;
+
+}
+
+nav#Menu ul{
+    padding: 0;
+    width: 100px;
+    border: 1px solid;
+    margin: 0px;
+}
+
+nav#Menu ul li{
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid;
+}
+
+nav#Menu ul ul{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+nav#Menu li a {
+    text-decoration: none;
+}
+
+nav#Menu ul ul{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+}
+
+nav#Menu ul.partie1 li.Smenu:hover ul.partie2,
+nav#Menu ul.partie1 li.Smenu:hover ul.partie3{
+    display: block;
+}
+
+nav#Menu a{
+    color:  rgb(229, 109, 235);
+}
+
+nav#Menu li:hover{
+    background: rgba(6, 7, 2, 0.974);
+}
+
+nav#Menu li.Smenu:hover{
+    background-color: rgb(229, 109, 235);
+}
+
+nav#Menu li a {
+    text-decoration: none;
+    padding: 4px 0 3px 8px;
+    display: block;
+    border-left: 8x solid rgb(46, 237, 17);
+    width: 84px;
+}
+ 
+ nav#Menu li a:hover{
+    border-left-color: rgb(255, 0, 208);
+}
+
+nav#Menu ul ul li a:hover{
+    border-left-color: #00FF00;
+}
+
+nav#Menu ul ul ul li a:hover{
+    border-left-color: #ef0fbbee;
+}
+
+article.bloc3{
+    border: 2.1px solid  rgb(229, 109, 235);
+    margin:1%;
+    width: 80%;
+    height: 73%;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(15, 4, 16);
+
+}
+
+footer.bloc4{
+    border: 1px solid rgb(16, 5, 17);
+    width: 80%;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+    top: 26%;
+    box-shadow: 10px 10px 10px 10px rgb(229, 109, 235);
+
+}
+
+iframe {
+    width: 240px;
+    height: 250px; 
+    position: relative;
+    right: 19rem;
+    top: 2.5%;
+}
+
+img{
+    width: 100px;
+    height: 100px; 
+    position: relative;
+    left: 18rem;
+    top: -40%;
+
+}

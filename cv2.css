@@ -1,0 +1,147 @@
+body {
+    background: #504d51;
+    background-size: 100%;
+    
+}
+
+section.container{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 800px;
+    box-shadow: 10px 10px 10px 10px blue;
+    width: 100%;
+    height: 100%;
+}
+
+nav.contenu{
+    display: flex;
+    border: 1px solid rgb(255, 0, 144);
+    margin: 1%;
+    width: 96%;
+    border-radius: 7px;
+
+}
+
+article.bloc1{
+    border: 0px solid rgb(0, 229, 255);
+    margin:1%;
+    width: 80%;
+    border-radius: 7px;
+    display: flex;
+    
+    
+
+}
+
+div.bloc2{
+    border: 0px solid blue;
+    margin:1%;
+    width: 80%;
+    border-radius: 7px;
+    padding: 0% 20%;
+}
+
+img{
+    width: 80px;
+    height: 80px; 
+    position: relative;
+    left: 17rem;
+    top: -7.9%;
+
+}
+
+nav.contblock{
+    border: 1px solid yellowgreen;
+    margin:1%;
+    width: 96%;
+    border-radius: 7px;
+    text-align: center;
+
+}
+
+article.bloc4{
+    border: 0px solid rgb(0, 255, 200);
+    margin:1%;
+    width: 98%;
+    border-radius: 7px;
+    display: flex;
+    position: relative;
+    
+    
+
+}
+
+div.bloc5{
+    border: 0px solid blue;
+    margin:1%;
+    width: -70%;
+    border-radius: 7px;
+    padding: 0% 20%;
+}
+
+div.bloc6{
+    border: 0px solid rgba(255, 0, 230, 0.966);
+    margin:1%;
+    width: 80%;
+    border-radius: 7px;
+    padding: 0% 20%;
+}
+
+nav.dedans{
+    border: 1px solid rgb(226, 131, 237);
+    margin:1%;
+    width: 96%;
+    border-radius: 7px;
+    text-align: center;
+
+}
+
+article.bloc7{
+    border: 0px solid rgb(0, 255, 200);
+    margin:1%;
+    width: 98%;
+    border-radius: 7px;
+    display: flex;
+    position: relative;
+    
+    
+
+}
+
+div.bloc8{
+    border: 0px solid rgba(0, 204, 255, 0.997);
+    margin:1%;
+    width: -70%;
+    border-radius: 7px;
+    padding: 0% 20%;
+}
+
+div.bloc9{
+    border: 0px solid rgba(0, 255, 128, 0.966);
+    margin:1%;
+    width: 80%;
+    border-radius: 7px;
+    padding: 0% 20%;
+}
+
+nav.lastbloc{
+    border: 1px solid rgb(64, 236, 198);
+    margin:1%;
+    width: 96%;
+    border-radius: 7px;
+    text-align: center;
+
+}
+
+article.bloc10{
+    border: 0px solid rgb(64, 236, 198);
+    margin:1%;
+    width: 98%;
+    border-radius: 7px;
+    text-align: center;
+}
+

@@ -1,0 +1,27 @@
+button
+{
+    background-color:rgb(255, 95, 127);
+    border-radius: 10px solid black;
+    font-family:'Courier New', Courier, monospace;
+    width: 20%;
+    height: 5em;
+    color: rgb(255, 0, 0);
+    padding: 14px;
+    margin: 2em;
+    
+}
+button:hover
+{
+    background-color: rgb(255, 214, 214);
+    cursor: alias;
+}
+
+.h1
+{
+    text-align: center;
+}
+
+body
+{
+    background-color:rgb(141, 245, 245);
+}
