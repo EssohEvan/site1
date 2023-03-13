@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACTURE</title>
+    <link href="maquette.css" rel="stylesheet">
+    <script src="maquette.js"></script>
+</head>
+<body>
+<form>
+    <header class="bloc1">
+        <article class="bloc2">
+            <div class="d1"><img src="ja.jpg"></div>
+            <div class="d2">
+               <input type="text" class="i1" placeholder="Nom de la compagnie"><br>
+               <input type="text" class="i1" placeholder="Adresse postale"><br>
+               <input type="text" class="i1" placeholder="Details du Contrat"><br>
+            </div>
+        </article>
+            <h4>FACTURE</h4><br>
+            <input type="text" class="i2" placeholder="jj/MM/AA"><br> <br>
+            <input type="text" class="i2" placeholder="N° de Facture"><br> <br>
+    </header>
+    <div class="d3">
+        <div class="d4">
+            <div class="d5"><h2><u>Destinataire</u></h2>
+                <br> <br>
+                <input type="text" class="i3" placeholder="Nom"><br> <br>
+                <input type="text" class="i3" placeholder="Nom de la société"><br> <br>
+                <input type="text" class="i3" placeholder="Adresse postale"><br> <br>
+                <input type="text" class="i3" placeholder="Téléphone"><br> <br>
+                <input type="text" class="i3" placeholder="Email"><br> <br>
+            </div>
+            <div class="d6">
+                <h2><u>Envoyez a</u></h2>
+                <br> <br>
+                <input type="text" class="i4" placeholder="Nom"><br> <br>
+                <input type="text" class="i4" placeholder="Nom de la société"><br> <br>
+                <input type="text" class="i4" placeholder="Adresse postale"><br> <br>
+                <input type="text" class="i4" placeholder="Téléphone"><br> <br>
+                <input type="text" class="i4" placeholder="Email"><br> <br>
+            </div>
+        </div>
+        <br>
+        <table id="table_inv">
+            <tr> 
+                <th> Description</th> 
+                <th> Quantité</th> 
+                <th> Prix Unitaire</th> 
+                <th> Total</th>
+                    
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="desc1" class="i6 desc" name="desc"></td>
+                <td><input type="text" placeholder="0" name="qte" class="input qte" ></td>
+                <td><input type="text" placeholder="0" class=" input prix" name="prix"></td>
+                <td><input type="text" placeholder="0" class=" input totalLigne" name="totalLigne"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="desc2" name="desc" class="i6 desc"></td>
+                <td><input type="text" placeholder="0" name="qte" class="input qte" ></td>
+                <td><input type="text" placeholder="0" class=" input prix" name="prix"></td>
+                <td><input type="text" placeholder="0" class=" input totalLigne" name="totalLigne"></td>
+                  
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="desc3" name="desc" class="i6 desc"></td>
+                <td><input type="text" placeholder="0" name="qte" class="input qte" ></td>
+                <td><input type="text" placeholder="0" class=" input prix" name="prix"></td>
+                <td><input type="text" placeholder="0" class=" input totalLigne" name="totalLigne"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="desc4" name="desc" class="i6 desc"></td>
+                <td><input type="text" placeholder="0" name="qte" class="input qte" ></td>
+                <td><input type="text" placeholder="0" class=" input prix" name="prix"></td>
+                <td><input type="text" placeholder="0" class=" input totalLigne" name="totalLigne"></td>
+            </tr>
+        </table>
+        <br>
+        <p>Remarques, notes et instruction de paiement.</p>
+
+        <div class="d7">
+            Sous-total : <input type="text" class="i6 totalLigne" id="ST" name="soustotal"> <br> <br>
+            Remises : <input type="text" class="i6" id="Re"> <br> <br>
+            Sous-total moins les remises : <input type="text" class="i6" id="STM"> <br> <br>
+            Taux d'imposition : <input type="text" class="i6" id="TI"> <br> <br>
+            Taux totale : <input type="text" class="i6" id="Tt"> <br> <br>
+            Expidito, manutention : <input type="text" class="i6" id="E_M"> <br> <br>
+        
+            <h3> Solde du : <input type="text" class="i6" id="SOL"> </h3>
+        </div>
+        <br>
+
+        <br>
+    <div class="buttonjs">
+        <input type="button" onclick="Calculer()" value="Calculer">
+        <input type="button" onclick="ajouterLigne()" value="Ajouter une Ligne">
+        <input type="button" onclick="remplir()" value="Remplir automatiquement">
+        <input type="reset" onclick="annuler()" value="annuler">
+    </div>
+</form>
+</body>
+</html>

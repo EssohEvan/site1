@@ -1,0 +1,192 @@
+body {
+   
+   
+    border-top: 20px solid gray;
+    border-bottom: 10px solid gray;
+    border-radius: 5px;
+   
+   
+    
+}
+
+
+
+header.bloc1{
+    background-color: rgb(8, 167, 169);
+    border: 0px solid rgb(199, 241, 84);
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    
+
+}
+
+article.bloc2{
+    border: 0px solid rgb(0, 229, 255);
+    width: 80%;
+    border-radius: 7px;
+    display: flex;
+    
+    
+
+}
+
+div.d2{
+    border: 0px solid blue;
+    width: 80%;
+    border-radius: 7px;
+    padding: 0% 20%;
+    left: 25rem;
+    text-align: start;
+}
+
+img{
+    width: 220px;
+    height: 147px; 
+    position: relative;
+    right: -0.1rem;
+    top: 1%;
+
+}
+
+.i1
+{
+    border: 0px solid black;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+
+.i2
+{
+    float: right;
+    margin-right: 50px;
+    border: 0px;
+}
+
+div.d3{
+    background-color: antiquewhite;
+    border: 0px solid rgb(22, 229, 104);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+
+}
+
+div.d4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid rgb(71, 25, 208);
+    width: 100%;
+    text-align: start;
+
+}
+
+div.d5{
+    border: 0px solid rgb(225, 14, 14);
+    margin: 1%;
+    width: 50%;
+
+}
+
+div.d6{
+    border: 0px solid rgb(141, 225, 14);
+    margin: 1%;
+    width: 50%;
+
+}
+
+table
+{
+    border: 1px solid black;
+    width: 97%;
+    height: 100px;
+}
+
+th{
+    background-color: rgb(8, 167, 169);
+    color: black;
+}
+
+div.d7
+{
+    float: right;
+    padding: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+    
+}
+
+.totalLigne
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.desc
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.qte
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+.prix
+{
+    width: 98%;
+    border: 0px solid black;
+    height: 40px;
+}
+
+td
+{
+    border: 1px solid black;
+    height: 40px;
+}
+
+.d5
+{
+    float: right;
+    padding: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+    
+}
+
+.i6
+{
+    border: 0px;
+
+}
+
+h3
+{
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+button
+{
+    margin-top: 250px;
+}
+
+
+#result{
+
+    color: black;
+    text-align: center;
+}
+
+.buttonjs
+{
+    margin-top: 250px;
+}
