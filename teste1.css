@@ -1,0 +1,288 @@
+
+body {
+  background: #504d51;
+  background-size: 100%;
+  
+}
+
+
+
+section.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 7px;
+  height: 800px;
+  box-shadow: 10px 10px 10px 10px rgb(229, 109, 235);
+  width: 100%;
+}
+
+
+.banniere {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    border-radius: 20px;
+    border-left:2px solid rgba(40, 67, 243, 0.3);
+    border-top: 2px solid rgba(40, 67, 243, 0.3);
+    border-bottom: 3px solid rgba(40, 67, 243, 0.3);;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* effet sympat a ajouter*/
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .banniere img {
+    height: 50px;
+  }
+  
+  div li{
+	list-style-type: none;
+}
+
+div > ul > li{
+    background: transparent;
+    border: none;
+    border-left: 3px solid rgba(40, 67, 243, 0.3);
+    border-top: 2px solid rgba(40, 67, 243, 0.3);
+    padding: 2px;
+	float: left;
+    width: 300px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px #3115e7;
+    color:white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all .3s;
+    margin-bottom: 2em;
+}
+
+.submenu{
+	display: none;
+}
+
+
+
+div > ul > li{
+	position: relative;
+    float: left;
+    
+}
+
+div > ul > li > a{
+	padding: 20px 30px;
+	color: white;
+} 
+
+div li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li a{
+	font-size: 14px;
+	color: white;
+	width: 500px;
+}
+
+.Smenu:hover{
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(253, 248, 248, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2px;
+    width: 300px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(36, 15, 221, 0.87);
+    color: rgba(48, 15, 238, 0.937);
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(36, 15, 221, 0.87);
+    transition: all .3s;
+    margin-bottom: 2em;
+}
+
+div > ul > li:hover a {
+	padding: 15px 30px 20px 30px;
+    
+}
+
+.Smenu .submenu{
+	background-color: rgba(48, 15, 238, 0.133);
+    border: none;
+    border-left: 1px solid rgba(94, 198, 253, 0.927);
+    border-top: 1px solid rgba(94, 198, 253, 0.927);
+    width: 300px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all .3s;
+    margin-bottom: 2em;
+}
+
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+
+.Smenu .submenu li:hover{
+	background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    width: 300px;
+    border-radius: 60px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all .3s;
+    margin-bottom: 2em;
+
+}
+
+.grand-div {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*nav {
+  width: 100%;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  
+}*/
+
+.bloc-center{
+  height: 35%;
+  border: 2px solid rgb(16, 232, 38);
+  width: 100%;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+/*.bloc-center2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  
+}*/
+
+  
+  .particulier {
+    background: url(img3.png);
+    border: 2px solid salmon;
+    margin: 2px;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .professionnel {
+    background: url(img4.png);
+    border: 2px solid rgb(246, 26, 187);
+    margin: 1px;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  
+  .particulier:hover, .professionnel:hover {
+    transform: translateX(50px);
+  }
+  
+  .images-ligne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .images-ligne img {
+    height: 100px;
+    margin-right: 20px;
+  }
+
+  a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all .3s;
+}
+
+a:hover{
+    text-shadow: 2px 2px 6px rgb(0, 0,);
+}
+
+.d2
+{
+color: white;
+font-family: verdana;
+background-color: #6495ED;
+border-color: #1E90FF;
+width: 27%;
+height: 600px;
+margin: 10px;
+padding: 2%;
+float: left;
+text-align: justify;
+border-radius: 8px;
+
+}
+
+.d3
+{
+color: white;
+font-family: verdana;
+background-color: blue;
+border-color: #1E90FF;
+width: 100%;
+height: 50px;
+text-align: justify;
+border-radius: 8px;
+}
+
+ 

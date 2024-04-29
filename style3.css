@@ -1,4 +1,15 @@
-body
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins, sans-serif';
+}
+
+body{
+    background:  linear-gradient(to right, #fff 15%, #3115e7 85%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
 .d1
 {
 color: white;
